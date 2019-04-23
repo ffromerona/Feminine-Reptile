@@ -1,0 +1,233 @@
+body {
+  margin: 0px;
+}
+
+.top-part{
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr;
+  height: 10vh;
+}
+
+.logo-part {
+  height: 10vh;
+  background: url(../image/logo.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.space-part {
+  height: 10vh;
+}
+
+.bar-part {
+  height: 10vh;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 2fr;
+	grid-gap: 2px;
+}
+
+a {
+	text-decoration: none;
+  color: #002f00;
+}
+
+li {
+
+	text-align: center;
+	list-style: none;
+}
+
+.home-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Quicksand;
+}
+
+.about-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Quicksand;
+}
+
+.products-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Quicksand;
+}
+
+.helpandsupport-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Quicksand;
+}
+
+.feminine-reptile {
+  height: 80vh;
+  background: url(../image/mainpicture.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.owner-part {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  background: url(../image/bgowner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  height: 45vh;
+}
+
+.picture-owner {
+  background: url(../image/ownerpicture.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.article-owner {
+  height: 45px;
+  padding: 5px;
+}
+
+.title-text-article {
+  font-size: 50px;
+  font-family: Gotham Black;
+  color: #002f00;
+}
+
+.text-article {
+  margin-top: 5px;
+  padding: 5px;
+  text-align: justify;
+  text-indent: 20px;
+  font-size: 20px;
+  font-family: Gotham;
+  color: #002f00;
+}
+
+.product-photo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  height: 50vh;
+  margin-top: 5px;
+}
+
+.first {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  height: 50vh;
+}
+
+.first-photo {
+  height: 55vh;
+  background: url(../image/athleisure.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ftitle {
+  font-size: 30px;
+  font-family: Gotham Black;
+  color: #002f00;
+  text-align: center;
+}
+
+.ftext {
+  text-align: justify;
+  text-indent: 30px;
+  font-size: 10px;
+  font-family: Gotham;
+  color: #002f00;
+  padding: 5px;
+}
+
+.second {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  height: 50vh;
+}
+
+.second-photo {
+  height: 55vh;
+  background: url(../image/casual.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.stitle {
+  font-size: 30px;
+  font-family: Gotham Black;
+  color: #002f00;
+  text-align: center;
+}
+
+.stext {
+  text-align: justify;
+  text-indent: 30px;
+  font-size: 10px;
+  font-family: Gotham;
+  color: #002f00;
+  padding: 5px;
+}
+
+.third {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  height: 50vh;
+}
+
+.third-photo {
+  height: 55vh;
+  background: url(../image/sportsher.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ttitle {
+  font-size: 30px;
+  font-family: Gotham Black;
+  color: #002f00;
+  text-align: center;
+}
+
+.ttext {
+  text-align: justify;
+  text-indent: 30px;
+  font-size: 10px;
+  font-family: Gotham;
+  color: #002f00;
+  padding: 5px;
+}
+
+.copyright {
+  background: url(../image/bglook.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 4vh;
+  font-size: 22px;
+  font-family: Quicksand;
+  color: #002f00;
+  text-align: center;
+  padding: 4px;
+  margin-top: 5px;
+}

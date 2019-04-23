@@ -1,0 +1,272 @@
+body {
+  margin: 0px;
+}
+
+.top-part{
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr;
+  height: 10vh;
+}
+
+.logo-part {
+  height: 10vh;
+  background: url(../image/logo.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.space-part {
+  height: 10vh;
+}
+
+.bar-part {
+  height: 10vh;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 2fr;
+	grid-gap: 2px;
+}
+
+a {
+	text-decoration: none;
+  color: #002f00;
+}
+
+li {
+
+	text-align: center;
+	list-style: none;
+}
+
+.home-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Quicksand;
+}
+
+.about-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Quicksand;
+}
+
+.products-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Quicksand;
+}
+
+.helpandsupport-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Quicksand;
+}
+
+.who {
+  text-align: center;
+  font-family: Gotham Black;
+  font-size: 50px;
+  color: #002f00;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.what {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-gap: 4px;
+  height: 30vh;
+  background: url(../image/bgpore.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.polo {
+  height: 40vh;
+  margin: 5px;
+}
+
+.text-polo {
+  text-align: center;
+  font-size: 25px;
+  color: #002f00;
+  font-family: League Spartan;
+  padding-top: 5px;
+}
+
+.article-polo {
+  text-align: justify;
+  font-size: 20px;
+  color: #002f00;
+  font-family: Gotham;
+  text-indent: 25px;
+  padding-top: 7px;
+}
+
+.revolution {
+  height: 70vh;
+  margin: 5px;
+}
+
+.text-revolution {
+  text-align: center;
+  font-size: 25px;
+  color: #002f00;
+  font-family: League Spartan;
+  padding-top: 5px;
+}
+
+.article-revolution {
+  text-align: justify;
+  font-size: 20px;
+  color: #002f00;
+  font-family: Gotham;
+  text-indent: 30px;
+  padding-top: 7px;
+}
+
+.photo-polo {
+  height: 30vh;
+  background: url(../image/po-re.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.manufacturing {
+  border: 2px #002f00 solid;
+  margin: 5px;
+}
+.title-manu {
+  text-align: center;
+  font-family: Gotham Black;
+  font-size: 50px;
+  color: #002f00;
+  margin: 10px;
+}
+
+.text-manu {
+  text-align: center;
+  font-size: 25px;
+  color: #002f00;
+  font-family: Gotham;
+  padding-top: 5px;
+  margin: 10px;
+}
+
+.steps-manu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr
+}
+
+.first {
+  grid-column: 1/2;
+}
+
+.steps-knitting {
+  text-align: center;
+  color: #002f00;
+  font-family: Gotham Black;
+  font-size: 50px;
+}
+
+.photo-knitting {
+  margin: 7px;
+  height: 50vh;
+  background: url(../image/knitting.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.about-knitting {
+  text-align: justify;
+  color: #002f00;
+  font-family: Gotham Black;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.second {
+  height: 100vh;
+  grid-column: 2/3;
+}
+
+.steps-signature {
+  text-align: center;
+  color: #002f00;
+  font-family: Gotham Black;
+  font-size: 50px;
+}
+
+.photo-signature {
+  margin: 7px;
+  height: 50vh;
+  background: url(../image/signature.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.about-signature {
+  text-align: justify;
+  color: #002f00;
+  font-family: Gotham Black;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.third {
+  height: 100vh;
+  grid-column: 3/4;
+}
+
+.steps-assembling {
+  text-align: center;
+  color: #002f00;
+  font-family: Gotham Black;
+  font-size: 50px;
+}
+
+.photo-assembling {
+  margin: 7px;
+  height: 50vh;
+  background: url(../image/sewing.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.about-assembling {
+  text-align: justify;
+  color: #002f00;
+  font-family: Gotham Black;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.copyright {
+  background: url(../image/bglook.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 4vh;
+  font-size: 22px;
+  font-family: Quicksand;
+  color: #002f00;
+  text-align: center;
+  padding: 4px;
+  margin-top: 5px;
+}
